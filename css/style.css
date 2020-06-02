@@ -1195,3 +1195,22 @@ div:after {
         background-color: #00838f;
     }
 }
+
+.pagination{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.pagination li {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.pages:hover{
+    color:blue;
+    font-weight: 600;
+    font-size: 22px;
+    text-shadow: 1px 1px 1px gray;
+}
